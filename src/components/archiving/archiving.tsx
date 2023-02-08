@@ -11,7 +11,7 @@ const Archiving = () => {
                 <div className="archiving__container">
                     <a className="archiving__wrapper sink-effect" href="https://github.com/parkseoeun5322" target="_blank">
                         <div className="archiving__img-wrapper">
-                            <img className="archiving__img" src={import.meta.env.VITE_IMAGE_URL + 'archiving/logo_github.png?raw=true'}/>
+                            <img className="archiving__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'archiving/logo_github.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                         </div>
                         <div className="archiving__url">https://github.com/parkseoeun5322</div>
                         <div className="archiving__description">
@@ -25,7 +25,7 @@ const Archiving = () => {
                     </a>
                     <a className="archiving__wrapper sink-effect" href="https://mystudyblog-it.tistory.com" target="_blank">
                         <div className="archiving__img-wrapper">
-                            <img className="archiving__img" src={import.meta.env.VITE_IMAGE_URL + 'archiving/logo_tistory.png?raw=true'}/>
+                            <img className="archiving__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'archiving/logo_tistory.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                         </div>
                         <div className="archiving__url">https://mystudyblog-it.tistory.com</div>
                         <div className="archiving__description">

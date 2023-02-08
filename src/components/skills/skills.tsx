@@ -11,23 +11,23 @@ const Skills = () => {
                 <div className="skills__container">
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Frontend</div>
-                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/frontend.png?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'skills/frontend.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Backend</div>
-                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/backend.png?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'skills/backend.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Mobile App</div>
-                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/logo_android.jpg?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'skills/logo_android.jpg' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Deployment</div>
-                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/deployment.png?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'skills/deployment.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Version Controll</div>
-                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/version_controll.png?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'skills/version_controll.png' + import.meta.env.VITE_IMAGE_URL_BACK}/>
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ const PageUpButton = () => {
             onClick={scrollToTop}
             style={scrollPosition < 100 ? {display: "none"} : {}} 
         >
-            <img className="pageUpButton__img" src={import.meta.env.VITE_IMAGE_URL + 'page-up.svg?raw=true'} alt=""></img>    
+            <img className="pageUpButton__img" src={import.meta.env.VITE_IMAGE_URL_FRONT + 'page-up.svg' + import.meta.env.VITE_IMAGE_URL_BACK} alt=""></img>    
         </div>
     )
 }

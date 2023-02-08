@@ -4,25 +4,26 @@ import userData from "../db/user.json"
 
 const MainHead = ({
     expanded,
-    setExpanded
+    headerHeight,
+    setExpanded,
 } : {
     expanded: boolean
+    headerHeight: number
     setExpanded : (expanded:boolean) => void
 }) => {
-    const [headerHeight, setHeaderHeight] = useState(0)
+    // const [headerHeight, setHeaderHeight] = useState(0)
 
-    const handlePage = () => {
-        setTimeout(()=>{ 
-            const heightElement = document.querySelector('.gnb')
-            const value = heightElement?.clientHeight as number
-            setHeaderHeight(value)
-            console.log(value)
-        }, 450)
-    }
+    // const handlePage = () => {
+    //     setTimeout(()=>{ 
+    //         const heightElement = document.querySelector('.gnb')
+    //         const value = heightElement?.clientHeight as number
+    //         setHeaderHeight(value)
+    //     }, 450)
+    // }
 
-    useEffect(()=>{
-        handlePage()
-    },[])
+    // useEffect(()=>{
+    //     handlePage()
+    // },[])
     
     return (
         <div className="mainHead">

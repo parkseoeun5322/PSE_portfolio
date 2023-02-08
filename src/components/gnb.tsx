@@ -53,7 +53,7 @@ const Gnb = () => {
                     </Container>
                 </Navbar>
             </header>
-            <MainHead expanded={expanded} setExpanded={setExpanded}/>
+            <MainHead expanded={expanded} setExpanded={setExpanded} headerHeight={headerHeight}/>
         </>
     )
 }
