@@ -11,7 +11,7 @@ const Skills = () => {
                 <div className="skills__container">
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Frontend</div>
-                        <img className="skills__img" src="/src/assets/images/skills/frontend.png"/>
+                        <img className="skills__img" src="./src/assets/images/skills/frontend.png"/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Backend</div>
