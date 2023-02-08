@@ -1,0 +1,97 @@
+.career {
+
+    &__content {
+        -webkit-box-sizing: border-box;
+        width: 100%;
+        max-width: 71.25rem;
+        padding: 4rem 2rem;
+        margin: 0 auto;        
+    }
+
+    &__companies {
+        width: 90%;
+        margin: 0 auto;       
+    }
+
+    &__company {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        -webkit-box-pack: center;
+    }
+
+    &__logo-wrapper {
+        border-right: 1px solid #ccc;
+        padding-right: 1.2rem;
+        img {
+            width: 300px;
+        }
+    }
+
+    &__info {
+        padding-left: 3rem;
+    }
+
+    &__title {
+        padding-bottom: 0.7rem;
+        font-weight: 900;
+        font-size: 1.6rem; 
+    }
+
+    &__period {
+        padding-bottom: 1.2rem;
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: #6c757d;
+    }
+
+    &__description {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ccc;
+        font-size: 1.1rem;
+    }
+
+    &__works {
+        padding-left: 1rem;
+        margin: 1rem 0;
+
+        li {
+            line-height: 1.8;
+        }
+    }
+
+    &__works-title {
+        margin: 2rem 0 1rem -1rem;
+        font-size: 1.2rem;
+        color: #222;
+        font-weight: 800;
+    }
+
+    &__works-period {
+        margin: 0 0 1rem -1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #6c757d;
+    }
+
+    @media (max-width: 768px) {
+        &__companies {
+            width: 100%;   
+        }    
+        
+        &__company {
+            flex-direction: column;
+        }
+
+        &__logo-wrapper { 
+            padding-right: 0;
+            padding-bottom: 2rem;
+            border-right: none;
+            margin: 0 auto;
+        }
+
+        &__info {
+            padding-left: 0;
+        }
+    }
+}

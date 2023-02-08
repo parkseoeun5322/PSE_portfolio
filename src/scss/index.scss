@@ -1,0 +1,104 @@
+@import 'gnb';
+@import 'mainHead';
+@import 'aboutMe';
+@import 'skills';
+@import 'archiving';
+@import 'projects';
+@import 'readme';
+@import 'career';
+@import 'pageUpButton';
+@import 'footer';
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular' !important;
+    line-height: normal;
+    margin: 0;
+}
+
+.sectionTitle {
+    display: table;
+    position: relative;
+    margin: 0 auto 4.5rem;
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        left: -3rem;
+        -webkit-transform: translateY(-50%);
+        width: 2rem;
+        height: 2rem;
+        opacity: .5;
+        cursor: pointer;
+        
+        i {
+            font-size: 2rem;
+
+            &.w {
+                color: #ffffff;
+            }
+        }
+    }
+
+    &__text {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        font-family: 'GangwonEduPowerExtraBoldA';
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 1.5;
+
+        &.bg {
+            color: #000000;
+            border-bottom-color: #cccccc;
+        }
+        &.bb {
+            color: #000000;
+            border-bottom-color: #000000;
+        }
+        &.wg {
+            color: #ffffff;
+            border-bottom-color: #cccccc;
+        }
+    }
+
+    @media (max-width: 992px) {
+        &__text {
+            font-size: 2.5rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        &__text {
+            font-size: 2rem;
+        }
+    }
+    
+}
+
+.sink-effect {
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+
+    &:hover {
+        transform: translateY(8px);
+    }
+}
+
+.highlight {
+    color: #ed3770;
+}

@@ -1,0 +1,26 @@
+.readme {
+
+    &__title {
+        font-weight: 900;
+        padding: 1em 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    &__sub-title {
+        font-weight: 900;
+        padding: 1em 0;
+
+        i {
+            margin-right: 15px;
+        }
+    }
+
+    &__text {
+        font-size: 1.1rem;
+        line-height: 1.8;
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+    }
+}

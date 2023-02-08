@@ -1,0 +1,153 @@
+.projects {
+    // background-color: #a35bd4;
+    background-color: #4a5fc2;
+
+    &__content {
+        -webkit-box-sizing: border-box;
+        width: 100%;
+        max-width: 71.25rem;
+        padding: 4rem 2rem;
+        margin: 0 auto;        
+    }
+
+    .accordion {
+
+        &-item {
+            background-color: transparent;
+            border: none;
+        }
+
+        &-body {
+            padding: 0;
+        }
+
+        &-button {
+            font-family: "GangwonEduPowerExtraBoldA";
+            padding-top: 28px;
+            
+            &-category {
+                font-size: 1.5rem;
+                margin-right: 10px;
+            }
+
+            &-period {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    &__project {
+        padding: 4rem 3rem;
+        margin: 0 auto 2rem;
+        background-color: #fff;
+        -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+
+        &.removeMargin {
+            &:last-of-type {
+                margin-bottom: 0;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+
+    &__title {
+        padding-bottom: 0.5rem;
+        font-family: 'GangwonEduPowerExtraBoldA';
+        font-weight: 400;
+        font-size: 2.5rem;
+        color: #222;
+        text-align: center;
+    }
+
+    &__period {
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #6c757d;
+        text-align: center;
+        opacity: .8;
+    }
+
+    &__info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        -webkit-box-pack: center;
+    }
+
+    &__img-carousel {
+        width: 50%;
+        margin-right: 3rem;
+    }
+
+    &__descriptions {
+        width: calc(50% - 3rem);
+    }
+
+    &__main-description {
+        padding-bottom: 1rem;
+        margin-bottom: 1.2rem;
+        border-bottom: 1px solid #ccc;
+        font-weight: 400;
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    &__readme {
+        margin-top: 30px;
+    }
+
+    &__description {
+        margin-bottom: 1rem;
+    }
+
+    &__description-label {
+        display: inline-block;
+        vertical-align: top;
+        width: 8.2rem;
+        font-weight: 900;
+        font-size: 1.1rem;
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+    &__description-value {
+        display: inline-block;
+        vertical-align: bottom;
+        width: calc(100% - 8.2rem);
+        font-weight: 400;
+        font-size: 1.1rem;
+
+        ul {
+            margin-left: -35px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        &__img-carousel {
+            width: 50%;
+            margin-right: 3rem;
+        }
+
+        &__descriptions {
+            width: calc(55% - 2rem);
+        }
+    }
+
+    @media (max-width: 1200px) {
+        &__img-carousel {
+            width: 90%;
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
+        &__descriptions {
+            width: 90%;
+        }
+    }
+}

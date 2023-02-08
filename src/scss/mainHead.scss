@@ -1,0 +1,75 @@
+.mainHead {
+    position: relative;
+
+    ::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: linear-gradient(180deg,rgba(55, 73, 78, 0.8) 0,rgba(55, 73, 78, 0.8) 90%),url(/src/assets/images/mainHead/laptop-3214756.png) 50% no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    &__content {
+        -webkit-box-sizing: border-box;
+        width: 100%;
+        max-width: 71.25rem;
+        margin: 0 auto;
+        padding: 11rem 2rem 4rem;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'GangwonEduPowerExtraBoldA';
+        font-weight: 400;
+        font-size: 4rem;
+        color: #fff;
+        word-break: keep-all;
+    }
+
+    &__divider {
+        width: 3.25rem;
+        height: 0;
+        margin: 1.5rem auto;
+        border: none;
+        border-top: 0.2rem solid #04c494;
+        opacity: 1;
+    }
+
+    &__description {
+        margin: 0 auto 2rem;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: hsla(0,0%,100%,.75);
+        line-height: 1.8;
+    }
+
+    &__find-out-more {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 10rem;
+        background-color: #04c494;
+        font-weight: 600;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #fff;
+        line-height: 1.5;
+        cursor: pointer;
+    }
+
+    @media (max-width: 992px) {
+        &__title {
+            font-size: 3rem;
+        }
+
+        &__description {
+            font-size: 1.1rem;
+        }
+
+    }
+
+}

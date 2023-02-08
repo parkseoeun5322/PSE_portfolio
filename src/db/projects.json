@@ -1,0 +1,462 @@
+[
+    {
+        "id": "prjectD_app",
+        "name": "대여 안대여(App)",
+        "category": "0",
+        "type": "APP",
+        "period": "2020.06 ~ 2020.10",
+        "authority": "5人 팀 프로젝트",
+        "url": "",
+        "github": "https://github.com/parkseoeun5322/Project_D",
+        "image_url": [
+            "/src/assets/images/projects/01_projectD_app/1.png",
+            "/src/assets/images/projects/01_projectD_app/2.png"
+        ],
+        "summary": "<b>인근 거주자 간의 물품을 대여할 수 있는 서비스를 제공하는 모바일 앱</b>입니다.<p></p> 구매하기 부담스러운 물품을 따로 구매하지 않고 쉽게 대여할 수 있는 서비스를 제공하기 위해서 개발했습니다.<br/> <span class='highlight'>Android Studio</span>를 처음 사용해봤다는 점에서 의미가 아주 높은 프로젝트이며 로그인 및 회원 가입, 외부 API를 적용하는 부분을 담당하여 얻는 것이 아주 많았던 프로젝트이기도 합니다.",
+        "main_function": [
+            "대여 물품 등록 및 수정 기능", 
+            "같은 동네 회원이 올린 대여물품 목록 조회", 
+            "찜 기능 및 리뷰 작성, 검색 기능, 채팅 기능 구현",
+            "사용자의 접근성을 높이기 위해 SNS 로그인 기능 추가"
+        ],
+        "my_part": [
+            "회원가입(+이메일 인증 기능)", 
+            "로그인 + SNS 로그인(Naver, Kakao Login API)", 
+            "아이디/비밀번호 찾기(+이메일 인증 기능)",
+            "위치 기반 서비스(Google Map API)"
+        ],
+            
+        "meaning": "국비 교육 과정 중 Android Studio를 통해 처음으로 개발해본 모바일 앱입니다.<br/> 사용자의 접근성이 중요한 서비스이기 때문에 팀원들 모두 웹보다는 모바일 앱에 집중해서 개발한 프로젝트입니다. <p></p>교육 과정 중에 참여한 프로젝트인 만큼 이메일 전송 기능부터 시작해서 <span class='highlight'>Naver, Kakao Login API</span> 및 <span class='highlight'>Google Map API</span>를 적용하는데 많은 어려움이 있었지만 그만큼 얻는 것도 많은 프로젝트였다고 생각합니다. <br/>자세히 말하자면, SNS 로그인 기능을 구현하면서 <span class='highlight'>OAuth 2.0</span>의 개념을 다질 수 있었습니다. <br/>또한 해당 서비스에서는 위치 찾기 기능이 중요한 기능 중 하나이기 때문에 회원 가입, 마이 페이지, 메인 화면 위치 검색 기능 등 많은 부분에서 사용되었습니다. <br/>그러므로 팀 프로젝트인 만큼 기능 중 일부분을 담당하였지만 프로젝트에 있어서 기여도가 높았다고 생각합니다.",
+        "frontend": "",
+        "backend": "",
+        "database": "Oracle",
+        "deployment": "Apache Tomcat",
+        "mobile_app": "Android Studio, Java, Spring",
+        "solution": ""
+    },
+    {
+        "id": "projectD_web",
+        "name": "대여 안대여(Web)",
+        "category": "0",
+        "type": "WEB",
+        "period": "2020.06 ~ 2020.10",
+        "authority": "5人 팀 프로젝트",
+        "url": "",
+        "github": "https://github.com/parkseoeun5322/Project_D",
+        "image_url": [
+            "/src/assets/images/projects/02_projectD_web/1.png"
+        ],
+        "summary": "<b>인근 거주자 간의 대여 가능한 물품을 조회하는 기능을 제공하는 웹 사이트</b>입니다.<p></p>실제 대여 서비스를 제공하기 보다는 서비스를 소개하는 기능에 중점을 둔 프로젝트입니다. 또한 저에게는 처음으로 구축한 웹사이트라는 점에 의의가 있는 프로젝트이기도 합니다.",
+        "main_function": [
+            "대여 물품 조회 및 카테고리별 정렬", 
+            "회원 간의 위치 조회 기능", 
+            "사용자의 접근성을 높이기 위해 SNS 로그인 기능 추가"
+        ],
+        "my_part": [
+            "회원가입(+이메일 보내기 기능)", 
+            "로그인 + SNS 로그인", 
+            "아이디/비밀번호 찾기",
+            "위치 정보 조회"
+        ],
+            
+        "meaning": "국비 교육 과정 중 <span class='highlight'>Spring framework</span>를 통해 처음으로 개발해본 웹 사이트입니다.<br/> 해당 서비스는 모바일 앱을 기반으로 하기 때문에 웹 사이트의 기능은 앱에 비해 상대적으로 적게 제공하다는 점에서 아쉬운 건 사실이었습니다.<br/> 하지만 저에게는 처음으로 구축한 웹 사이트라는 것에 큰 의미가 있는 프로젝트였습니다.<br/> 그리고 무엇보다 5명의 팀원들과 함께 4개월 동안 모바일 앱과 웹 사이트를 구축하면서 원활한 소통과 합리적인 협업의 중요성을 깨닫게 된 소중한 기회였습니다.",
+        "frontend": "CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, Spring",
+        "database": "Oracle",
+        "deployment": "Apache Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "deuqoo",
+        "name": "Deuqoo",
+        "category": "0",
+        "type": "WEB",
+        "period": "2020.12 ~ 2021.02",
+        "authority": "1人 개인 프로젝트",
+        "url": "",
+        "github": "https://github.com/parkseoeun5322/Deuqoo",
+        "image_url": [
+            "/src/assets/images/projects/03_deuqoo/1.png",
+            "/src/assets/images/projects/03_deuqoo/2.png",
+            "/src/assets/images/projects/03_deuqoo/3.png",
+            "/src/assets/images/projects/03_deuqoo/4.png"
+        ],
+        "summary": "<b>드라마를 좋아하는 사람들이 활동할 수 있는 익명 커뮤니티 웹사이트입</b>니다.<p></p> 저에게는 첫 개인 프로젝트이므로 혼자서 UI/UX 설계, 디자인 및 프론트 엔드, 백 엔드까지 담당한 것이 쉽지는 않았지만 그만큼 보람이 많았던 프로젝트입니다.<p></p> 커뮤니티 사이트 특성 상 게시판 기능을 중점으로 한 웹 사이트이므로 <span class='highlight'>CRUD</span> 기능을 다시 한번 완벽하게 이해할 수 있게 되었습니다. 뿐만 아니라 <span class='highlight'>채팅 기능, 게시판 에디터 적용, 크롤링 기능</span>까지 많은 기능을 구현함으로써 배운 것이 많은 웹 프로젝트였다고 생각합니다.",
+        "main_function": [
+            "게시글 목록 조회 및 등록, 수정, 삭제 기능(+댓글 기능)", 
+            "크롤링(네이버)을 통해 방영중 / 방영예정 드라마 및 드라마 속 상품 조회 기능 제공", 
+            "좋아요 및 스크랩 기능 -> 마이페이지 조회 및 수정 가능",
+            "드라마 실시간 방영 중 채팅 기능 제공",
+            "SNS 로그인(Naver, Kakao) 기능"
+        ],
+        "my_part": [
+            "전체"
+        ],
+            
+        "meaning": "웹 개발자로 취업하기로 한 저는 국비교육 과정 중에 참여했던 웹 프로젝트에 한계를 느껴 개인적으로 만든 웹 사이트입니다.<br/> 평소 드라마를 즐겨보는 취미를 가지고 있어 드라마를 좋아하는 사람들이 드라마에 관한 정보를 공유하는 익명 커뮤니티 사이트를 만들어보면 어떨까 싶어 고안해낸 프로젝트입니다.<p></p> 게시판 기능을 중점으로 한 웹사이트이므로 CRUD 기능을 완벽하게 이해할 수 있었습니다.<br/> 이에 그치지 않고 다대다 채팅 기능을 구현함으로써 <span class='highlight'>WebSocket</span>과 <span class='highlight'>Stomp Protocol</span>을 조금이나마 공부할 수 있었습니다.<br/> 또한 <span class='highlight'>Jsoup 라이브러리</span>를 통해 외부 사이트의 데이터를 크롤링함으로써 프로젝트의 완성도를 높였습니다.<br/> 많은 기능을 하나씩 완성해감으로써 굉장히 많은 보람을 느낀 프로젝트였다고 생각합니다.",
+        "frontend": "CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, Spring",
+        "database": "Oracle",
+        "deployment": "Apache Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },   
+    {
+        "id": "intern",
+        "name": "Bolwing-Program",
+        "category": "1",
+        "type": "WEB",
+        "period": "2021.05 ~ 2021.06",
+        "authority": "1人 개인 프로젝트",
+        "url": "",
+        "github": "https://github.com/parkseoeun5322/Bolwing-Program",
+        "image_url": [
+            "/src/assets/images/projects/04_intern/1.png",
+            "/src/assets/images/projects/04_intern/2.png"
+        ],
+        "summary": "<b>볼링 점수 계산 로직을 쉽게 익히게 하고 편리하게 볼링 게임을 즐길 수 있도록 한 웹 사이트</b>입니다.<br/> 회사 방침 상 신입 개발자에게 있어서 정규직 전환 시 <b>평가 요소</b>로 들어가는 프로젝트였습니다.<p></p> 필수 기능은 다수 플레이어간 게임 진행과 점수 계산, 자동 게임(퍼펙트, 올 스페어, 랜덤)까지 였지만 이에 그치지 않고 게임 중간 점수 수정 기능과 볼링장 위치 찾기 기능을 추가하였고 반응형 웹 UI를 디자인하였습니다. 결과적으로는 좋은 평가를 받아 저에게는 아주 의미 있는 프로젝트이기도 합니다.",
+        "main_function": [
+            "스코어 랭킹 리스트 및 이전 게임 리스트 조회", 
+            "플레이어 별로 핀을 입력 받아 게임이 진행되면서 점수가 자동으로 계산되면서 스코어판에 업데이트 됨(+ 게임 중간에 점수 수정 가능)", 
+            "자동으로 퍼펙트 게임, 올 스페어 게임, 랜덤 게임 실행 가능",
+            "Kakao Map을 통해 볼링장 위치 찾기 기능",
+            "Junit을 활용한 테스트 주도 개발(TDD) 구현"
+        ],
+        "my_part": [
+            "전체"
+        ],
+            
+        "meaning": "신입 개발자 입사 시 인턴 과정에서 볼링 게임을 주제로 한 프로젝트 개발 및 발표 & 시연이 필수 였기 때문에 만들게 된 볼링 게임 웹 사이트입니다.<br/> 결과물의 완성도에 따라 연봉 협상 조건이 달라지기 때문에 굉장히 많은 부담을 가지고 참여했던 프로젝트였습니다.<p></p> 볼링 점수 계산 특성 상 예외 처리해야할 부분이 많기도 하고 이러한 점수 계산이 핀을 입력할 때마다 서버를 통해서 DB에 저장되어야 하고 이 데이터를 화면 전환 없이 스코어판에 업데이트 해야 하기 때문에 script를 작업하는데 있어 많은 시간을 소요했습니다.<br/> 인턴 평가에서 요구하는 필수 기능은 다수 플레이어간 게임 진행과 점수 계산, 자동 게임(퍼펙트, 올 스페어, 랜덤)까지 였지만<br/> 저는 이에 그치지 않고 게임 <b>중간 점수 수정 기능</b>과 <span class='highlight'>Kakao Map API</span>를 활용하여 볼링장 위치 찾기 기능까지 추가하였습니다.<br/> 또한 BootStrap을 활용하여 처음으로 반응형 웹 UI를 구현하였습니다.<br/> 그리고 인턴 교육 때 배웠던 <span class='highlight'>테스트 주도 개발(TDD)</span>을 해당 프로젝트에 접목시켜 볼링 점수 관련 로직을 더 깔끔하게 구성할 수 있었습니다.<br/> 이러한 여러가지 기능 구현 과정과 프로젝트 진행 시 애로사항 및 배운 점을 발표 및 시연에서 설명하니 감사하게도 아주 <b>좋은 평가</b>를 받게 되었습니다.<br/> 정규직에 전환되면서 유리하게 연봉 협상을 할 수 있게 되었다는 점에서 저에게는 아주 의미 있는 프로젝트라고 생각합니다.",
+        "frontend": "CSS, JavaScript, jQuery, Bootstrap",
+        "backend": "Java, JSP, Spring",
+        "database": "Oracle",
+        "deployment": "Apache Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },  
+    {
+        "id": "gjrip",
+        "name": "광주전남지역혁신플랫폼",
+        "category": "1",
+        "type": "WEB",
+        "period": "2021.04 ~ 2021.08",
+        "authority": "서브 개발자로 참여",
+        "url": "https://www.gjrip.or.kr/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/05_gjrip/1.png",
+            "/src/assets/images/projects/05_gjrip/2.png",
+            "/src/assets/images/projects/05_gjrip/3.png"
+        ],
+        "summary": "<b>지자체-대학 협력 기반 지역혁신사업 활성화를 위한 홍보 및 업무관리시스템을 제공하는 웹사이트</b>입니다.<p></p>입사 후 처음으로 참여하게 된 신규 프로젝트인 만큼 회사에서 제공하는 CMS에 맞춰 어떻게 개발해야 하는 지를 조금이나마 배우게 된 기회였습니다",
+        "main_function": [
+            "성과관리 프로세스 정의 및 사업유형별 입출력 시스템 제공", 
+            "참여기관, 사업 주체별로 현황, 성과 조회 기능", 
+            "자원 공유(장비, 인력, 지역사업) 시스템 제공",
+            "사업공모 정보, 진행, 보고 등 사업 관리 시스템 제공"
+        ],
+        "my_part": [
+            "인트라넷 - 자원관리(기관관리, 인력관리, 장비관리, 시설관리, 총괄센터 직원관리, 광주전남지역 사업관리)", 
+            "인트라넷 - 알림마당 (공지사항, 자료실) 게시판, GJRIP 미디어 게시판", 
+            "홈페이지 - 참여기관 정보 및 자원공유 정보(인트라넷 자원관리 시스템 연계)",
+            "홈페이지 게시판 전체"
+        ],
+            
+        "meaning": "회사에 입사하고 처음으로 참여한 신규 프로젝트입니다.<br>회사에서 제공하는 전자정부표준프레임워크와 호환되는 <span class='highlight'>CMS</span>를 기반으로 어떻게 개발해야 하는 지를 조금이나마 익힐 수 있었습니다.<br>자세히 말하자면, CMS를 통해서 일반 게시판 및 멀티미디어 게시판을 생성하는 방법과 게시판 스킨을 적용하는 방법, 웹 사이트 메뉴 관리와 공통코드 관리 방법, 개인정보 암호화까지 배울 수 있었습니다. 또한 인트라넷에서 자원 공유 프로그램은 CRUD 기능이 주된 기능이지만 인트라넷 특성 상 <b>접속 권한</b>에 따른 기능 차이를 생각하여 개발해야 한다는 점과 <b>엑셀 다운 기능</b> 구현을 통해 배울 점이 아주 많은 프로젝트였다고 생각합니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Apache/Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "kimchi",
+        "name": "광주세계김치축제",
+        "category": "1",    
+        "type": "WEB",
+        "period": "2021.06 ~ 2021.10",
+        "authority": "서브 개발자로 참여",
+        "url": "https://kimchi.gwangju.go.kr/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/06_kimchi/1.png",
+            "/src/assets/images/projects/06_kimchi/2.png"
+        ],
+        "summary": "코로나 19로 인해 광주에서 개최하는 <b>광주세계김치축제를 온라인 중심으로 활성화하기 위해 구축한 웹 사이트</b>입니다.<p></p> 짧은 기간안에 쇼핑몰 시스템을 구축하는 게 결코 쉽지 않았지만 저의 사수였던 메인 개발자와 함께 결제 모듈 관련 로직을 적용하고 트러블 슈팅하는 과정에서 결제 모듈 프로세스와 이에 관한 예외 처리를 조금이나마 이해할 수 있게 된 계기였습니다.",
+        "main_function": [
+            "김치마켓 쇼핑몰(결제 시스템 제공 및 장바구니 기능)", 
+            "광주세계김치축제 콘텐츠 운영 관리", 
+            "관리자 페이지 – 판매업체 및 상품 관리, 업체별 상품주문관리 기능 제공, 쿠폰 관리 및 업체별 정산 조회 기능 제공"
+        ],
+        "my_part": [
+            "관리자 페이지 – 판매 업체 등록, 판매 상품 등록, 상품 주문 관리", 
+            "홈페이지 게시판 전체"
+        ],           
+        "meaning": "4개월이라는 짧은 일정 안에서 쇼핑몰 시스템을 구축한다는 것이 쉽지 않았음을 느끼게 해준 저에게는 기억에 많이 남은 프로젝트입니다.<br/> 쇼핑몰의 중요 기능을 담당하지 않았지만 CMS에서 제공하는 관리자 홈페이지에서 상품 주문 관리를 담당하였기 때문에 각 주문 별로 주문 상태를 관리할 수 있도록 개발해야 했습니다.<p></p> 이 과정에서 결제 모듈(KG 이니시스)을 통한 <b>결제 취소 처리 로직</b>을 적용해야 했고 송장번호 입력 시 주문 상태 변경과 동시에 배송 시작 <b>문자 발송 기능</b>까지 추가해야 했습니다.<br/> 결제 취소 로직을 적용하는 부분은 사수의 도움을 받아 문제없이 진행되었으며, 이 과정에서 결제 모듈에서 제공하는 결제 취소 프로세스를 조금이나마 이해할 수 있었습니다.<br/> 또 홈페이지에서는 전체적인 레이아웃과 게시판을 담당하였기 때문에 CMS를 통해 메인 페이지 레이아웃 스킨을 적용하면서 CMS 기반으로 한 웹 사이트의 전체적인 페이지 구조를 이해할 수 있게 되었습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": "KG 이니시스(결제 모듈)"
+    },
+    {
+        "id": "hpftf",
+        "name": "함평축제관광재단",
+        "category": "1",    
+        "type": "WEB",
+        "period": "2021.09 ~ 2021.10",
+        "authority": "메인 개발자로 참여",
+        "url": "https://www.hpftf.or.kr/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/07_hpftf/1.png",
+            "/src/assets/images/projects/07_hpftf/2.png"
+        ],
+        "summary": "<b>함평 축제 콘텐츠를 체계적으로 홍보할 수 있는 기반을 구축하기 위해 만들어진 웹 사이트</b>입니다.<p></p> 사이트 특성 상 콘텐츠 및 게시판으로 이루어져 있다 보니 특별한 기능 개발 없이 CMS로 처리할 수 있는 간단한 프로젝트였기 때문에 메인 개발자로 참여할 수 있었습니다.<br/> 그러므로 CMS에 대한 전체적인 이해도를 높여준 계기가 되었다고 생각합니다.",
+        "main_function": [
+            "재단소개 및 축제 정보 콘텐츠 제공", 
+            "홍보자료, 알림마당, 정보공개 관련 정보를 공유할 수 있는 게시판 제공"
+        ],
+        "my_part": [
+            "홈페이지 기능 전체"
+        ],           
+        "meaning": "처음으로 메인 개발자로 참여한 프로젝트입니다.<br/>  콘텐츠와 게시판으로 이루어진 웹 사이트이다 보니 많은 기능이 제공되는 사이트가 아니기 때문에 큰 부담이 없었지만<br/>  홈페이지 전체를 혼자서 담당했다는 점에서 저에게 의미가 있는 프로젝트였습니다.<br/>  이전에는 클라이언트 측의 요구 사항을 개발 환경으로 연결 시켜 고안하는 것이 익숙하지 않아 개발팀 내에서 도움 받는 부분이 많았습니다.<br/>  하지만 이 프로젝트를 하는 과정에서 기획자와 클라이언트의 요구 사항이 실질적으로 CMS와 개발 환경에서 어떻게 구현되는 지 조금이나마 이해할 수 있게 된 계기가 되었습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "gjfez",
+        "name": "광주경제자유구역청",
+        "category": "1",    
+        "type": "WEB",
+        "period": "2021.07 ~ 2021.11",
+        "authority": "메인 개발자로 참여",
+        "url": "https://www.gjfez.go.kr/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/08_gjfez/1.png",
+            "/src/assets/images/projects/08_gjfez/2.png",
+            "/src/assets/images/projects/08_gjfez/3.png",
+            "/src/assets/images/projects/08_gjfez/4.png",
+            "/src/assets/images/projects/08_gjfez/5.png"
+        ],
+        "summary": "<b>광주경제자유구역청 개청에 따라 비전과 전략을 제시하는 투자유치 홍보 수단을 위한 웹 사이트</b>입니다.<p></p> 이전의 프로젝트를 통해 CMS에 대해 거의 대부분을 다룰 수 있다고 생각했지만 이 프로젝트를 통해 이제껏 다루지 않은 CMS의 세세한 기능 뿐만 아니라 커스터마이징 하는 방법을 새로 알게 된 계기가 되었습니다.",
+        "main_function": [
+            "광주경제자유구역청(GJFEZ) 소개 및 투자정보, 민원 관련 콘텐츠 및 게시판 제공", 
+            "정보 접근성을 높이기 위한 전체 검색 기능 및 메뉴 관리(내가 설정한 메뉴, 최근 이용한 메뉴) 기능 제공", 
+            "외국어 홈페이지(영문, 일문, 중문) 구축 및 Google Translate API 적용"
+        ],
+        "my_part": [
+            "주요 기능 전체"
+        ],           
+        "meaning": "이 웹 사이트 같은 경우에도 콘텐츠와 게시판이 주된 기능이라 개발 부분은 혼자 담당한 프로젝트였습니다.<br/> 이전에 함평축제관광재단에서 혼자 개발을 담당한 적이 있어 큰 어려움은 없었으나 CMS 기본 기능 외의 또 다른 추가 기능에 대해 배우고 적용할 수 있는 기회를 얻을 수 있었습니다.<p></p> 자세히 말하자면 CMS에서 제공하는 스킨을 활용하여 <span class='highlight'>Local Storage</span>를 통한 메뉴 관리(내가 설정한 메뉴, 최근 이용한 메뉴) 기능 추가할 수 있었습니다.<br/> 또한 문서 열람 기능을 <b>외부 솔루션</b>을 통해 구현해야 했기 때문에 CMS에서 기본으로 제공하는 게시판 스킨에서 커스텀 해야 할 필요가 있었습니다.<br/> 그러므로 이 프로젝트를 통해서 CMS에 추가 기능을 구현하기 위해 커스터마이징 하는 방법을 새로 알게 되었습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "NHN Cloud, Linux(CentOS 7)",
+        "mobile_app": "",
+        "solution": "Synap Document(문서변환 솔루션), CoolFilter(개인정보 차단 솔루션)"
+    },
+    {
+        "id": "gjyouth",
+        "name": "광주청년정책플랫폼",
+        "category": "1",    
+        "type": "WEB",
+        "period": "2021.07 ~ 2021.12",
+        "authority": "지원 개발자로 참여",
+        "url": "https://www.gwangju.go.kr/youth/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/09_gjyouth/1.png",
+            "/src/assets/images/projects/09_gjyouth/2.png",
+            "/src/assets/images/projects/09_gjyouth/3.png"
+        ],
+        "summary": "<b>청년정책과 관련된 정보를 통합적으로 제공하기 위해 구축한 웹 사이트</b>입니다.<p></p> 중간에 지원 개발자로 투입된 프로젝트이지만 기존의 프로젝트와 달리 프론트 엔드(<span class='highlight'>FullCallendar API</span>)에 중점을 뒀다는 점과 새로운 DB를 사용했다는 점에서 개인적으로 배운 것이 많았던 프로젝트였다고 생각합니다.",
+        "main_function": [
+            "청년정책 관련 프로그램 접수 및 관리 기능 지원", 
+            "생애주기에 맞는 맞춤 검색 기능 제공", 
+            "청년을 위한 청년공간 정보 및 정책 통계 현황 제공"
+        ],
+        "my_part": [
+            "정책 캘린더", 
+            "정책 맞춤검색 상세 화면 및 관련 FAQ",
+            "청년정책 더 알기(자치구 정책, 중앙정부 정책, 타 시·도 정책, 법령 및 조례, 청년정책 유관 기관)"
+        ],           
+        "meaning": "오픈 일정 이슈로 인해 중간에 급하게 투입된 프로젝트입니다.<br/> 지원 개발자로 투입되었기 때문에 담당하는 부분이 많지는 않았지만 정책 캘린더를 담당하여 처음으로 FullCallendar API를 적용하여 달력 UI를 구현하였습니다.<br/> 또, FullCallendar API가 제공하는 기능 외의 추가 기능을 필요로 했기 때문에 <b>FullCallendar handler</b>를 제어하는 작업에 공을 들였습니다.<p></p> 그리고 해당 프로젝트는 시청 산하로 들어가는 홈페이지였기 때문에 시청에서 사용하고 있는 <b>Tibero DB</b>로 쿼리문을 작성해야 했습니다.<br/> 기존에 참여했던 프로젝트는 대부분 MariaDB였기 때문에 Tibero에 익숙해지는 데 많은 시간을 소요했습니다.<br/> 지원 개발자로 투입된 프로젝트이지만 기존의 프로젝트와 달리 프론트 엔드에 중점을 뒀다는 점과 새로운 DB를 사용했다는 점에서 개인적으로 배운 게 많았던 프로젝트였다고 생각합니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "Tibero",
+        "deployment": "",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "061mind",
+        "name": "전남광역정신건강복지센터",
+        "category": "1",    
+        "type": "WEB",
+        "period": "2021.09 ~ 2021.12",
+        "authority": "서브 개발자로 참여",
+        "url": "https://www.061mind.or.kr/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/10_061mind/1.png",
+            "/src/assets/images/projects/10_061mind/2.png",
+            "/src/assets/images/projects/10_061mind/3.png",
+            "/src/assets/images/projects/10_061mind/4.png"
+        ],
+        "summary": "<b>정신건강 관련 정보 서비스 제공을 위해 광역 및 지역 센터 간의 정보 공유 체계를 구축하기 위해 만든 웹 사이트</b>입니다.<p></p> 기존에 했던 작업보다 많은 경우의 수를 생각하며 코드를 짜고 테스트했던 경험을 준 프로젝트였습니다. ",
+        "main_function": [
+            "정신건강 자가검진 및 온라인 상담 기능 제공", 
+            "정신건강 관련 행사 · 교육 신청 및 마음 클리너 신청 시스템 구축", 
+            "정신건강 관련 홍보 콘텐츠 및 센터 일정 정보 제공"
+        ],
+        "my_part": [
+            "관리자 페이지 – 참여신청 관리, 마음클리너 관리", 
+            "홈페이지 – 행사·교육 신청, 마음클리너 활동, 통합 검색 기능, 휴대폰 본인인증(KMC) 모듈 업데이트"
+        ],           
+        "meaning": "제가 이 프로젝트에서 담당한 부분은 예약 신청 개념의 프로그램이기 때문에 여러 가지 <b>예외 처리</b>(신청 인원 초과 및 신청 기간이 지날 경우 마감 처리 및 교육 및 행사 일정이 지날 경우 접수 현황 미공개 처리)가 필요했습니다.<br/> 그러므로 기존에 했던 작업보다 많은 경우의 수를 생각해야 했으며 그에 따른 테스트까지 필요했습니다.<p></p> 또 <b>KMC 본인인증 모듈</b>이 업데이트 되었기 때문에 이에 대한 관련 작업을 진행했습니다.<br/> CMS에서 기존 버전의 모듈은 기본적으로 세팅이 되어있기 때문에 기본 설정 값만 conf 파일에 기입하면 됐었습니다.<br/> 그러므로 본인인증 모듈과 관련된 소스 파일을 따로 보지 않아 어떻게 구현되어 있는 지 볼 기회가 없었습니다.<br/> 하지만 이번 업데이트를 계기로 본인인증 모듈이 어떻게 적용되어 있고 어떻게 구현되어 있는 지 파악할 수 있었습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": "CoolFilter(개인정보 차단 솔루션), KMC(본인인증)"
+    },
+    {
+        "id": "061mind_intra",
+        "name": "전남 정신보건사업 인력관리 시스템",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2021.11 ~ 2022.02",
+        "authority": "메인 개발자로 참여",
+        "url": "https://www.061mind.or.kr/intra/",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/11_061mind_intra/1.png",
+            "/src/assets/images/projects/11_061mind_intra/2.png"
+        ],
+        "summary": "<b>전남 정신보건기관 전체 종사자 현황에 대해서 파악하고, 관리하는 시스템을 제공하는 웹 사이트</b>입니다.<p></p> 메인 개발자 및 <b>신입 개발자 사수</b>의 입장으로 참여한 프로젝트였기 때문에 신입 개발자를 교육하는 과정에서 다시 한번 제 실력과 위치를 재고할 수 있게 만든 계기였습니다.",
+        "main_function": [
+            "기관 및 업무 유형별 등 종사자 및 퇴사자에 대한 검색, 통계현황 조회", 
+            "종사자 및 퇴사자에 대한 데이터 등록 및 수정 기능"
+        ],
+        "my_part": [
+            "관리자 페이지 – 종사자 현황 관리(보건소, 센터), 퇴사자 조회, 퇴사자 통계", 
+            "홈페이지 – 레이아웃 전체, 조직현황"
+        ],           
+        "meaning": "메인 개발자 및 신입 개발자 사수의 입장으로 참여한 프로젝트입니다.<p></p> 제가 담당한 부분에서는 기관별 입사일과 퇴사일을 입력 받고 이를 통해 <b>경력 및 근속년수를 계산</b>하는 로직에 중점을 뒀습니다.<br/> 그리고 인력관리시스템이라는 특성상 개인 정보에 대한 체계적인 암호화가 필요했기 때문에 <span class='highlight'>외부 암호화 솔루션(KSIGN)</span>을 적용시켜야 했습니다.<br/> 처음으로 외부 솔루션을 혼자 시스템에 적용(설치 제외)해보는 것이기 때문에 막막했지만 주변의 도움없이 개발문서에 의지하며 여러 과정을 거친 결과 적용을 완료하였습니다.<p></p> 또한 신입 개발자와 같이 협업하면서 전자정부프레임워크의 기본적인 MVC 패턴의 흐름과 CRUD 방식을 구현하는 방법을 알려주었으며 트러블 슈팅을 같이 해봄으로써 어떻게 오류를 처리하는 지까지 교육했습니다.<br/> 처음으로 사수의 입장으로 프로젝트를 참여하다 보니 실제 개발 업무보다는 신입 교육 업무에 대해서 부담을 느꼈으며 이 과정을 통해 사수라는 자리가 신입보다는 훨씬 어려운 자리라는 것을 깨닫았습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": "KSIGN(DB 암호화 솔루션)"
+    },
+    {
+        "id": "greenpc",
+        "name": "바로예약 기능 개선(사랑의 그린PC)",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2022.03 ~ 2022.04",
+        "authority": "메인 개발자로 참여",
+        "url": "",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/12_greenpc/1.png",
+            "/src/assets/images/projects/12_greenpc/2.png"
+        ],
+        "summary": "<b>사랑의 그린 중고 PC 신청을 온라인으로 접수를 받고 관리하기 위해 기존의 바로예약 시스템에 기능을 추가한 프로젝트</b>입니다.<p></p> <b>엑셀 업로드 기능</b>을 처음으로 구현해 보았으며 클라이언트 및 기획자와의 일정 조율 협의의 중요성을 느끼게 해준 프로젝트이기도 합니다.",
+        "main_function": [
+            "사랑의 그린 PC 관련 문서(사업 안내문 및 신청서) 다운 및 신청 기능 제공", 
+            "사랑의 그린 PC 접수 관리(+ 중복 수혜 관리) 및 신청자 관리"
+        ],
+        "my_part": [
+            "관리자 페이지 – 사랑의 그린PC 접수 관리 (데이터 등록 및 수정, 중복 수혜자 명단 엑셀 업로드)", 
+            "관리자 페이지 – 사랑의 그린PC 신청자 관리 (중복 수혜 조회 및 접수·정원 초과 예외 처리)",
+            "관리자 페이지 – 사랑의 그린PC 삭제자 관리 (복원 기능)"
+        ],           
+        "meaning": "이 프로젝트 또한 메인 개발자 & 신입 개발자 사수 역할로 참여한 프로젝트입니다.<br/> 개발 완료 시점에 가까워졌을 때 클라이언트의 추가 기능 요구 사항(자치구별 관리자가 존재하여 이에 대한 기능 권한 분리, 삭제자 관리 페이지 및 기능 추가)이 많아 신입 개발자와 애를 먹었던 프로젝트이기도 합니다.<br/> 이로 인해 클라이언트 및 기획자와의 일정 조율 협의의 중요성을 느낀 계기가 되었습니다.<p></p> 뿐만 아니라 처음으로 <b>엑셀 업로드</b>(<span class='highlight'>OPCPackage, XSSFReader</span>)를 통해 중복 수혜자 데이터를 등록하는 기능을 구현해보았습니다.<p></p> 관리자가 신청자 관리 페이지에 접속했을 때 해당 접수 건의 자치구별 모집 정원과 대기 정원을 확인할 수 있는 부분이 없었습니다.<br/> 하지만 관리자가 신청자를 직접 등록할 경우 정원 초과 여부를 체크하기 때문에 자치구별 정원을 확인할 수 있는 부분이 필요할 것 같아 이에 대해 <b>기획자에게 건의</b>해보았습니다.<br/> 결국 저의 의견을 반영하여 신청자 관리 페이지에서 자치구별 모집 및 대기 정원을 보여주는 modal을 추가하였습니다.<br/> 처음으로 클라이언트 입장에서 생각하여 기능 추가 제의를 한 케이스라고 볼 수 있습니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "Tibero",
+        "deployment": "",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "returnfarmer",
+        "name": "함평군 체류형 지원 센터",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2022.03 ~ 2022.04",
+        "authority": "지원 개발자로 참여",
+        "url": "",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/13_returnfarmer/1.png"
+        ],
+        "summary": "<b>함평군 귀농·귀촌인을 위한 체계적인 정보를 제공하기 위해 구축한 웹 사이트</b>입니다.<p></p> 신입 개발자에게 CMS 구조와 활용 방법을 알려주기 위해 지원 개발자로 참여한 프로젝트이기도 합니다.",
+        "main_function": [
+            "함평군 귀농어귀촌 지원 센터 및 정책 홍보 콘텐츠 제공", 
+            "함평군 귀농어귀촌 관련 상담 및 커뮤니티 게시판 제공"
+        ],
+        "my_part": [
+            "주요 기능 전체"
+        ],           
+        "meaning": "해당 프로젝트의 메인 개발자였던 신입 개발자에게 CMS 구조와 활용 방법을 알려주기 위해 지원 개발자로 참여한 프로젝트입니다. ",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "greenaloe",
+        "name": "그린알로에 쇼핑몰",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2022.05 ~ 2022.09",
+        "authority": "메인 개발자로 참여",
+        "url": "",
+        "github": "",
+        "image_url": [
+            "/src/assets/images/projects/14_greenaloe/1.png",
+            "/src/assets/images/projects/14_greenaloe/2.png",
+            "/src/assets/images/projects/14_greenaloe/3.png",
+            "/src/assets/images/projects/14_greenaloe/4.png"
+        ],
+        "summary": "<b>㈜그린 알로에에서 방문 판매에서 온라인 판매 전환을 위해 구축한 쇼핑몰 웹 사이트</b>입니다.<p></p> 해당 프로젝트의 주요 기능인 <b>결제 및 주문관리</b> 및 <b>교환/환불 관리</b>를 맡았으며 운영되고 있는 <b>물류 시스템과 연계</b>하여 배송을 관리하는 부분을 담당했습니다.<p></p> 개발하는 과정이 굉장히 버거웠던 건 사실이었지만 그만큼 얻은 것이 많았던 프로젝트였다고 생각합니다.",
+        "main_function": [
+            "상품 쇼핑몰 기능(상품 결제 및 환불 및 교환, 찜 혹은 장바구니 기능, 리뷰) 제공", 
+            "물류 센터(GAMS)와 쇼핑몰 사이트 연계를 통한 배송 관리 시스템 구축", 
+            "GP 회원 승급 신청 및 관리 시스템 구축",
+            "상품 및 그린 플래너 홍보 콘텐츠 제공"
+        ],
+        "my_part": [
+            "홈페이지 - 상품 결제(권한 별 할인율 차등 적용 및 합배송 및 할인율을 고려한 상품 금액 계산 로직 적용, 이지페이 결제 모듈 적용, 고객 인도 정보 등록 기능)", 
+            "홈페이지 - 마이페이지(배송조회 및 교환(+부분 교환) 및 환불(+부분 환불) 신청 기능 및 사유 및 배송비에 따른 환불금 계산 로직 추가)",
+            "홈페이지 - GP 승급 신청 기능",
+            "관리자 페이지 - 상품 조회 시 물류 시스템(GAMS) 연계 기능 추가",
+            "관리자 페이지 – 주문 관리(발송장 일괄 등록, 주문 상태 변경에 따른 물류 시스템 연계 및 결제취소, 교환/환불 신청 기능 추가, 알림톡 발송)",
+            "관리자 페이지 – 교환/환불 관리(사유 및 배송비에 따른 환불금 계산 로직 적용 및 결제 취소 기능 추가, 물류 시스템 연계, 알림톡 발송)",
+            "관리자 페이지 – GP 승급 신청 관리 및 GP 추천인 목록 조회",
+            "구매확정 스케줄러 적용(배송완료, 교환재배송완료, 교환/환불신청취소 차등 적용)"
+        ],           
+        "meaning": "광주세계김치축제의 신규 개발과, 구례 지리산정원 및 보성 환경성질환이라는 예약결제 홈페이지 유지보수를 담당해서 그런 지 해당 프로젝트의 메인 개발자를 맡게 되었습니다.<p></p> 하지만 결제 모듈을 시스템에 적용하는 작업은 처음이었고 심지어 이제껏 사용하지 않았던 생소한 결제 모듈(이지페이)였기에 적용하는데 쉽지 않았습니다.<br/> 또한 위의 프로젝트보다 <b>결제(+교환배송비 결제)</b> 및 <b>교환/환불(특히 부분 환불)</b> 시에 고려해야할 변수들이 너무 많고 복잡했으며 이를 소스코드에 적용하고 테스트하며 트러블 슈팅하는 작업이 만만치 않다는 걸 깨닫았습니다.<br/> 또한 현재 그린 알로에 측에서 운영하고 있는 <b>물류 시스템과 연계하여 배송(+ 교환/환불 재배송)</b>을 관리하는 부분까지 많은 시간이 소요되었습니다.<br/> 또한 GP 권한을 가진 사용자가 결제할 경우 이 GP가 속해 있는 지점의 코드를 물류 시스템에 연계해 가져온 다음 이 코드를 통해 관리자 페이지에서 지점 권한별로 분류하는 작업도 필요했습니다.<p></p> 해당 프로젝트 메인 개발자의 담당하는 역할이 버거웠지만 그만큼 얻은 것도 배운 것도 많았던 프로젝트였다고 생각합니다.",
+        "frontend": "HTML, CSS, JavaScript, jQuery",
+        "backend": "Java, JSP, eGovFrame",
+        "database": "MariaDB",
+        "deployment": "Linux(CentOS 7), Apache/Tomcat",
+        "mobile_app": "",
+        "solution": "이지페이(PG 솔루션), 알림톡 솔루션"
+    }
+]
