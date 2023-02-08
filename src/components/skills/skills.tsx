@@ -15,19 +15,19 @@ const Skills = () => {
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Backend</div>
-                        <img className="skills__img" src="/src/assets/images/skills/backend.png"/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/backend.png?raw=true'}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Mobile App</div>
-                        <img className="skills__img" src="/src/assets/images/skills/logo_android.jpg"/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/logo_android.jpg?raw=true'}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Deployment</div>
-                        <img className="skills__img" src="/src/assets/images/skills/deployment.png"/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/deployment.png?raw=true'}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Version Controll</div>
-                        <img className="skills__img" src="/src/assets/images/skills/version_controll.png"/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/version_controll.png?raw=true'}/>
                     </div>
                 </div>
             </div>

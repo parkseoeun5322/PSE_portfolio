@@ -9,8 +9,8 @@
         "url": "",
         "github": "https://github.com/parkseoeun5322/Project_D",
         "image_url": [
-            "/src/assets/images/projects/01_projectD_app/1.png",
-            "/src/assets/images/projects/01_projectD_app/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/01_projectD_app/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/01_projectD_app/2.png?raw=true"
         ],
         "summary": "<b>인근 거주자 간의 물품을 대여할 수 있는 서비스를 제공하는 모바일 앱</b>입니다.<p></p> 구매하기 부담스러운 물품을 따로 구매하지 않고 쉽게 대여할 수 있는 서비스를 제공하기 위해서 개발했습니다.<br/> <span class='highlight'>Android Studio</span>를 처음 사용해봤다는 점에서 의미가 아주 높은 프로젝트이며 로그인 및 회원 가입, 외부 API를 적용하는 부분을 담당하여 얻는 것이 아주 많았던 프로젝트이기도 합니다.",
         "main_function": [
@@ -44,7 +44,7 @@
         "url": "",
         "github": "https://github.com/parkseoeun5322/Project_D",
         "image_url": [
-            "/src/assets/images/projects/02_projectD_web/1.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/02_projectD_web/1.png?raw=true"
         ],
         "summary": "<b>인근 거주자 간의 대여 가능한 물품을 조회하는 기능을 제공하는 웹 사이트</b>입니다.<p></p>실제 대여 서비스를 제공하기 보다는 서비스를 소개하는 기능에 중점을 둔 프로젝트입니다. 또한 저에게는 처음으로 구축한 웹사이트라는 점에 의의가 있는 프로젝트이기도 합니다.",
         "main_function": [
@@ -77,10 +77,10 @@
         "url": "",
         "github": "https://github.com/parkseoeun5322/Deuqoo",
         "image_url": [
-            "/src/assets/images/projects/03_deuqoo/1.png",
-            "/src/assets/images/projects/03_deuqoo/2.png",
-            "/src/assets/images/projects/03_deuqoo/3.png",
-            "/src/assets/images/projects/03_deuqoo/4.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/03_deuqoo/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/03_deuqoo/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/03_deuqoo/3.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/03_deuqoo/4.png?raw=true"
         ],
         "summary": "<b>드라마를 좋아하는 사람들이 활동할 수 있는 익명 커뮤니티 웹사이트입</b>니다.<p></p> 저에게는 첫 개인 프로젝트이므로 혼자서 UI/UX 설계, 디자인 및 프론트 엔드, 백 엔드까지 담당한 것이 쉽지는 않았지만 그만큼 보람이 많았던 프로젝트입니다.<p></p> 커뮤니티 사이트 특성 상 게시판 기능을 중점으로 한 웹 사이트이므로 <span class='highlight'>CRUD</span> 기능을 다시 한번 완벽하게 이해할 수 있게 되었습니다. 뿐만 아니라 <span class='highlight'>채팅 기능, 게시판 에디터 적용, 크롤링 기능</span>까지 많은 기능을 구현함으로써 배운 것이 많은 웹 프로젝트였다고 생각합니다.",
         "main_function": [
@@ -112,8 +112,8 @@
         "url": "",
         "github": "https://github.com/parkseoeun5322/Bolwing-Program",
         "image_url": [
-            "/src/assets/images/projects/04_intern/1.png",
-            "/src/assets/images/projects/04_intern/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/04_intern/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/04_intern/2.png?raw=true"
         ],
         "summary": "<b>볼링 점수 계산 로직을 쉽게 익히게 하고 편리하게 볼링 게임을 즐길 수 있도록 한 웹 사이트</b>입니다.<br/> 회사 방침 상 신입 개발자에게 있어서 정규직 전환 시 <b>평가 요소</b>로 들어가는 프로젝트였습니다.<p></p> 필수 기능은 다수 플레이어간 게임 진행과 점수 계산, 자동 게임(퍼펙트, 올 스페어, 랜덤)까지 였지만 이에 그치지 않고 게임 중간 점수 수정 기능과 볼링장 위치 찾기 기능을 추가하였고 반응형 웹 UI를 디자인하였습니다. 결과적으로는 좋은 평가를 받아 저에게는 아주 의미 있는 프로젝트이기도 합니다.",
         "main_function": [
@@ -145,9 +145,9 @@
         "url": "https://www.gjrip.or.kr/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/05_gjrip/1.png",
-            "/src/assets/images/projects/05_gjrip/2.png",
-            "/src/assets/images/projects/05_gjrip/3.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/05_gjrip/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/05_gjrip/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/05_gjrip/3.png?raw=true"
         ],
         "summary": "<b>지자체-대학 협력 기반 지역혁신사업 활성화를 위한 홍보 및 업무관리시스템을 제공하는 웹사이트</b>입니다.<p></p>입사 후 처음으로 참여하게 된 신규 프로젝트인 만큼 회사에서 제공하는 CMS에 맞춰 어떻게 개발해야 하는 지를 조금이나마 배우게 된 기회였습니다",
         "main_function": [
@@ -181,8 +181,8 @@
         "url": "https://kimchi.gwangju.go.kr/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/06_kimchi/1.png",
-            "/src/assets/images/projects/06_kimchi/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/06_kimchi/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/06_kimchi/2.png?raw=true"
         ],
         "summary": "코로나 19로 인해 광주에서 개최하는 <b>광주세계김치축제를 온라인 중심으로 활성화하기 위해 구축한 웹 사이트</b>입니다.<p></p> 짧은 기간안에 쇼핑몰 시스템을 구축하는 게 결코 쉽지 않았지만 저의 사수였던 메인 개발자와 함께 결제 모듈 관련 로직을 적용하고 트러블 슈팅하는 과정에서 결제 모듈 프로세스와 이에 관한 예외 처리를 조금이나마 이해할 수 있게 된 계기였습니다.",
         "main_function": [
@@ -212,8 +212,8 @@
         "url": "https://www.hpftf.or.kr/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/07_hpftf/1.png",
-            "/src/assets/images/projects/07_hpftf/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/07_hpftf/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/07_hpftf/2.png?raw=true"
         ],
         "summary": "<b>함평 축제 콘텐츠를 체계적으로 홍보할 수 있는 기반을 구축하기 위해 만들어진 웹 사이트</b>입니다.<p></p> 사이트 특성 상 콘텐츠 및 게시판으로 이루어져 있다 보니 특별한 기능 개발 없이 CMS로 처리할 수 있는 간단한 프로젝트였기 때문에 메인 개발자로 참여할 수 있었습니다.<br/> 그러므로 CMS에 대한 전체적인 이해도를 높여준 계기가 되었다고 생각합니다.",
         "main_function": [
@@ -241,11 +241,11 @@
         "url": "https://www.gjfez.go.kr/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/08_gjfez/1.png",
-            "/src/assets/images/projects/08_gjfez/2.png",
-            "/src/assets/images/projects/08_gjfez/3.png",
-            "/src/assets/images/projects/08_gjfez/4.png",
-            "/src/assets/images/projects/08_gjfez/5.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/08_gjfez/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/08_gjfez/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/08_gjfez/3.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/08_gjfez/4.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/08_gjfez/5.png?raw=true"
         ],
         "summary": "<b>광주경제자유구역청 개청에 따라 비전과 전략을 제시하는 투자유치 홍보 수단을 위한 웹 사이트</b>입니다.<p></p> 이전의 프로젝트를 통해 CMS에 대해 거의 대부분을 다룰 수 있다고 생각했지만 이 프로젝트를 통해 이제껏 다루지 않은 CMS의 세세한 기능 뿐만 아니라 커스터마이징 하는 방법을 새로 알게 된 계기가 되었습니다.",
         "main_function": [
@@ -274,9 +274,9 @@
         "url": "https://www.gwangju.go.kr/youth/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/09_gjyouth/1.png",
-            "/src/assets/images/projects/09_gjyouth/2.png",
-            "/src/assets/images/projects/09_gjyouth/3.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/09_gjyouth/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/09_gjyouth/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/09_gjyouth/3.png?raw=true"
         ],
         "summary": "<b>청년정책과 관련된 정보를 통합적으로 제공하기 위해 구축한 웹 사이트</b>입니다.<p></p> 중간에 지원 개발자로 투입된 프로젝트이지만 기존의 프로젝트와 달리 프론트 엔드(<span class='highlight'>FullCallendar API</span>)에 중점을 뒀다는 점과 새로운 DB를 사용했다는 점에서 개인적으로 배운 것이 많았던 프로젝트였다고 생각합니다.",
         "main_function": [
@@ -307,10 +307,10 @@
         "url": "https://www.061mind.or.kr/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/10_061mind/1.png",
-            "/src/assets/images/projects/10_061mind/2.png",
-            "/src/assets/images/projects/10_061mind/3.png",
-            "/src/assets/images/projects/10_061mind/4.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/10_061mind/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/10_061mind/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/10_061mind/3.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/10_061mind/4.png?raw=true"
         ],
         "summary": "<b>정신건강 관련 정보 서비스 제공을 위해 광역 및 지역 센터 간의 정보 공유 체계를 구축하기 위해 만든 웹 사이트</b>입니다.<p></p> 기존에 했던 작업보다 많은 경우의 수를 생각하며 코드를 짜고 테스트했던 경험을 준 프로젝트였습니다. ",
         "main_function": [
@@ -340,8 +340,8 @@
         "url": "https://www.061mind.or.kr/intra/",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/11_061mind_intra/1.png",
-            "/src/assets/images/projects/11_061mind_intra/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/11_061mind_intra/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/11_061mind_intra/2.png?raw=true"
         ],
         "summary": "<b>전남 정신보건기관 전체 종사자 현황에 대해서 파악하고, 관리하는 시스템을 제공하는 웹 사이트</b>입니다.<p></p> 메인 개발자 및 <b>신입 개발자 사수</b>의 입장으로 참여한 프로젝트였기 때문에 신입 개발자를 교육하는 과정에서 다시 한번 제 실력과 위치를 재고할 수 있게 만든 계기였습니다.",
         "main_function": [
@@ -370,8 +370,8 @@
         "url": "",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/12_greenpc/1.png",
-            "/src/assets/images/projects/12_greenpc/2.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/12_greenpc/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/12_greenpc/2.png?raw=true"
         ],
         "summary": "<b>사랑의 그린 중고 PC 신청을 온라인으로 접수를 받고 관리하기 위해 기존의 바로예약 시스템에 기능을 추가한 프로젝트</b>입니다.<p></p> <b>엑셀 업로드 기능</b>을 처음으로 구현해 보았으며 클라이언트 및 기획자와의 일정 조율 협의의 중요성을 느끼게 해준 프로젝트이기도 합니다.",
         "main_function": [
@@ -401,7 +401,7 @@
         "url": "",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/13_returnfarmer/1.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/13_returnfarmer/1.png?raw=true"
         ],
         "summary": "<b>함평군 귀농·귀촌인을 위한 체계적인 정보를 제공하기 위해 구축한 웹 사이트</b>입니다.<p></p> 신입 개발자에게 CMS 구조와 활용 방법을 알려주기 위해 지원 개발자로 참여한 프로젝트이기도 합니다.",
         "main_function": [
@@ -429,10 +429,10 @@
         "url": "",
         "github": "",
         "image_url": [
-            "/src/assets/images/projects/14_greenaloe/1.png",
-            "/src/assets/images/projects/14_greenaloe/2.png",
-            "/src/assets/images/projects/14_greenaloe/3.png",
-            "/src/assets/images/projects/14_greenaloe/4.png"
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/14_greenaloe/1.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/14_greenaloe/2.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/14_greenaloe/3.png?raw=true",
+            "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/14_greenaloe/4.png?raw=true"
         ],
         "summary": "<b>㈜그린 알로에에서 방문 판매에서 온라인 판매 전환을 위해 구축한 쇼핑몰 웹 사이트</b>입니다.<p></p> 해당 프로젝트의 주요 기능인 <b>결제 및 주문관리</b> 및 <b>교환/환불 관리</b>를 맡았으며 운영되고 있는 <b>물류 시스템과 연계</b>하여 배송을 관리하는 부분을 담당했습니다.<p></p> 개발하는 과정이 굉장히 버거웠던 건 사실이었지만 그만큼 얻은 것이 많았던 프로젝트였다고 생각합니다.",
         "main_function": [

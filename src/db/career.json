@@ -2,7 +2,7 @@
     {
         "id": "comin",
         "name": "가민정보시스템",
-        "logo": "/src/assets/images/career/logo_comin.png",
+        "logo":  "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/career/logo_comin.png?raw=true",
         "period": "2021.04 ~ 2022.11",
         "description": "공공사업, 교육사업, 제조·금융사업, R&D사업 영역 관련 서비스를 제공하는 회사입니다.<p></p>공공사업본부의 개발파트 소속이었고, 기본적으로 <b>Java기반의 백엔드 웹 개발 및 유지보수</b>를 담당했습니다. 뿐만 아니라 <b>신입 개발자의 사수</b> 역할과 같은 업무까지 함께 전담했습니다.",
         "responsibilities": [
