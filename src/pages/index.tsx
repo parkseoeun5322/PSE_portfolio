@@ -6,17 +6,23 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Career from "../components/career/career"
 import Footer from "../components/footer"
 import PageUpButton from "../components/pageUpButton"
+import Gnb from "../components/gnb";
+import { useState } from "react";
 
 const MainPage = () => {
+    const [headerHeight, setHeaderHeight] = useState(0)
+    const [expanded, setExpanded] = useState(false)
+
     return (
         <>
+            <Gnb expanded={expanded} headerHeight={headerHeight} setExpanded={setExpanded} setHeaderHeight={setHeaderHeight}/>
             {/* <MainHead />*/}
             <AboutMe />
             <Skills />
             <Archiving />
             <Projects />
             <Career /> 
-            <PageUpButton />
+            <PageUpButton setExpanded={setExpanded} />
             <Footer/>       
         </>
     )

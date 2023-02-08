@@ -48,17 +48,19 @@
     }
 
     &__find-out-more {
-        display: inline-block;
-        padding: 1rem 2rem;
-        border: none;
-        border-radius: 10rem;
-        background-color: #04c494;
-        font-weight: 600;
-        font-size: 1.2rem;
-        text-decoration: none;
-        color: #fff;
-        line-height: 1.5;
-        cursor: pointer;
+        a {
+            display: inline-block;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 10rem;
+            background-color: #04c494;
+            font-weight: 600;
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #fff !important;
+            line-height: 1.5;
+            cursor: pointer;
+        }
     }
 
     @media (max-width: 992px) {

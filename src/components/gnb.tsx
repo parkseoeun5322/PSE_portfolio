@@ -5,20 +5,31 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import MainHead from "./mainHead";
 
-const Gnb = () => {
+const Gnb = ({
+    expanded,
+    headerHeight,
+    setExpanded,
+    setHeaderHeight
+} : {
+    expanded: boolean
+    headerHeight: number
+    setExpanded : (expanded:boolean) => void   
+    setHeaderHeight: (headerHeight: number) => void 
+}) => {
     const headerRef = useRef<HTMLHeadElement>(null)
-    const [headerHeight, setHeaderHeight] = useState(0)
     const [scrollPosition, setScrollPosition] = useState(0)
-    const [expanded, setExpanded] = useState(false);
 
     const handleUpdateScroll = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
     }
 
     const handlePage = () => {
-        if (!headerRef.current === null) return
-        const value = headerRef.current!.offsetHeight as number
-        setHeaderHeight(value)
+        setTimeout(()=>{ 
+            if (!headerRef.current === null) return
+            const value = headerRef.current!.clientHeight as number
+            setHeaderHeight(value)
+        }, 200)
+        
     }
 
     useEffect(()=>{
@@ -53,7 +64,7 @@ const Gnb = () => {
                     </Container>
                 </Navbar>
             </header>
-            <MainHead expanded={expanded} setExpanded={setExpanded} headerHeight={headerHeight}/>
+            <MainHead setExpanded={setExpanded} headerHeight={headerHeight}/>
         </>
     )
 }
