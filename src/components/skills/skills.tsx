@@ -1,3 +1,5 @@
+import 'dotenv/config'
+
 const Skills = () => {
     return (
         <article className="skills" id="skills">
@@ -11,7 +13,7 @@ const Skills = () => {
                 <div className="skills__container">
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Frontend</div>
-                        <img className="skills__img" src="https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/skills/frontend.png?raw=true"/>
+                        <img className="skills__img" src={process.env.imageUrl + 'skills/frontend.png?raw=true'}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Backend</div>
