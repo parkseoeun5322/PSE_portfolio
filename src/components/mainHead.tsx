@@ -3,11 +3,9 @@ import { Link } from "react-scroll"
 import userData from "../db/user.json"
 
 const MainHead = ({
-    expanded,
     headerHeight,
     setExpanded,
 } : {
-    expanded: boolean
     headerHeight: number
     setExpanded : (expanded:boolean) => void
 }) => {
