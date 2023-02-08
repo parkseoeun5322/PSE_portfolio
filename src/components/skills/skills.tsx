@@ -1,5 +1,3 @@
-import 'dotenv/config'
-
 const Skills = () => {
     return (
         <article className="skills" id="skills">
@@ -13,7 +11,7 @@ const Skills = () => {
                 <div className="skills__container">
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Frontend</div>
-                        <img className="skills__img" src={process.env.imageUrl + 'skills/frontend.png?raw=true'}/>
+                        <img className="skills__img" src={import.meta.env.VITE_IMAGE_URL + 'skills/frontend.png?raw=true'}/>
                     </div>
                     <div className="skills__tech-stacks sink-effect">
                         <div className="skills__title">Backend</div>
