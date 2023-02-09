@@ -465,9 +465,9 @@
         "category": "0",    
         "type": "WEB",
         "period": "2023.01",
-        "authority": "메인 개발자로 참여",
-        "url": "",
-        "github": "",
+        "authority": "1人 개인 프로젝트",
+        "url": "https://pse-portfolio.vercel.app/",
+        "github": "https://github.com/parkseoeun5322/PSE_portfolio",
         "image_url": [
             "https://github.com/parkseoeun5322/PSE_portfolio/blob/main/src/assets/images/projects/15_portfolio/1.png?raw=true"
         ],
@@ -480,7 +480,7 @@
         "my_part": [
             "주요 기능 전체"
         ],           
-        "meaning": "React 및 TypeScript를 이용하여 처음으로 진행한 프로젝트였기 때문에, 새로운 기술에 대한 이해를 넓히는 데 많은 도움이 되었습니다.<br/> 과거 개발 업무는 BackEnd 중점으로 진행되었기 때문에 FrontEnd와 해당 분야에서 수요가 많은 기술 및 라이브러리를 접해볼 기회가 많지 않았습니다.<br/> 하지만 이 프로젝트를 계기로 정적 웹 페이지를 구축하면서 새로운 분야와 새로운 기술을 공부하고 이해할 수 있었습니다.<p></p>또한 Vercel이라는 배포 플랫폼을 이용여 Lean함으로써 정적 웹 사이트를 복잡한 절차 없이 간편하게 호스팅할 수 있다는 점을 깨달았던 계기가 되었습니다.",
+        "meaning": "React 및 TypeScript를 이용하여 처음으로 진행한 프로젝트였기 때문에, 새로운 기술에 대한 이해를 넓히는 데 많은 도움이 되었습니다.<br/> 과거 개발 업무는 BackEnd 중점으로 진행되었기 때문에 FrontEnd와 해당 분야에서 수요가 많은 기술 및 라이브러리를 접해볼 기회가 많지 않았습니다.<br/> 하지만 이 프로젝트를 계기로 정적 웹 페이지를 구축하면서 새로운 분야와 새로운 기술을 공부하고 이해할 수 있었습니다.<p></p>또한 Vercel이라는 배포 플랫폼을 이용여 Lean함으로써 정적 웹 사이트를 복잡한 절차 없이 간편하게 호스팅할 수 있다는 점을 깨달았던 계기가 되었습니다.<p></p> ※ Start Bootstrap이 제공하는 무료 HTML 템플릿(<a href='https://startbootstrap.com/theme/creative' target='_blank'>https://startbootstrap.com/theme/creative</a>)을 기반으로 작업했습니다. 다만 HTML, CSS 코드를 가져다 사용하진 않고 디자인만 참고하여 HTML, CSS 코딩은 직접 진행했습니다.",
         "frontend": "React, TypeScript, Sass, React-Bootstrap",
         "backend": "",
         "database": "",
