@@ -26,12 +26,12 @@
             padding-top: 28px;
             
             &-category {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 margin-right: 10px;
             }
 
             &-period {
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
         }
     }
@@ -148,6 +148,42 @@
         }
         &__descriptions {
             width: 90%;
+        }
+    }
+
+    @media (max-width: 992px) {
+        &__title {
+            font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 576px) {
+        &__project {
+            padding: 1.8rem;
+        }
+
+        &__title {
+            font-size: 1.8rem;
+        }
+
+        &__description-label {
+            display: table;
+            width: auto;
+            padding-left: 0.5rem;
+            margin-bottom: 0.5rem;
+            border-left: 5px solid #222;
+
+            i { 
+                display: none; 
+            }
+        }
+
+        &__description-value {
+            width: 100%;
+
+            ul { 
+                margin-left: -10px;
+            }
         }
     }
 }

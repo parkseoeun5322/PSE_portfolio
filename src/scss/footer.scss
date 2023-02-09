@@ -1,6 +1,6 @@
 .footer {
     height: 11rem;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     background-color: #222;
     text-align: center;  
 
@@ -23,6 +23,7 @@
         }
 
         img {
+            display: block;
             width: 100%;
         }
     }

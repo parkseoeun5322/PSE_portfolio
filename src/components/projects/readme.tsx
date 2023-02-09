@@ -65,14 +65,26 @@ const ReadMe = ({
                                     { projectData.type === 'WEB' ? (
                                         <>
                                             <li>Frontend : {projectData.frontend}</li>
-                                            <li>Backend : {projectData.backend}</li>
+                                            { !projectData.backend ? (
+                                                <></>
+                                            ) : (
+                                                <li>Backend : {projectData.backend}</li>
+                                            )}
                                         </>
 
                                     ) : (
                                         <li>Mobile App : {projectData.mobile_app}</li>
                                     )}
-                                    <li>Database : {projectData.database}</li>
-                                    <li>Deployment : {projectData.deployment}</li>
+                                    { !projectData.database ? (
+                                        <></>
+                                    ) : (
+                                        <li>Database : {projectData.database}</li>
+                                    )}
+                                    { !projectData.deployment ? (
+                                        <></>
+                                    ) : (
+                                        <li>Deployment : {projectData.deployment}</li>
+                                    )}
                                 </ul> 
                             </article>
                         )}

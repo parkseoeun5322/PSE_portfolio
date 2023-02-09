@@ -8,6 +8,7 @@ import Footer from "../components/footer"
 import PageUpButton from "../components/pageUpButton"
 import Gnb from "../components/gnb";
 import { useState } from "react";
+import MainHead from "../components/mainHead";
 
 const MainPage = () => {
     const [headerHeight, setHeaderHeight] = useState(0)
@@ -16,7 +17,7 @@ const MainPage = () => {
     return (
         <>
             <Gnb expanded={expanded} headerHeight={headerHeight} setExpanded={setExpanded} setHeaderHeight={setHeaderHeight}/>
-            {/* <MainHead />*/}
+            <MainHead setExpanded={setExpanded} headerHeight={headerHeight}/>
             <AboutMe />
             <Skills />
             <Archiving />

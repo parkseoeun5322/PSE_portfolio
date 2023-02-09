@@ -32,7 +32,11 @@ const Projects = () => {
                     <Accordion.Item eventKey={type.id} key={type.id}>
                         <Accordion.Header>
                             <span className="accordion-button-category">{type.category}</span>
-                            <span className="accordion-button-period">({type.period})</span>
+                            { !type.period ? (
+                                <></>
+                            ) : (
+                                <span className="accordion-button-period">({type.period})</span>
+                            )}
                         </Accordion.Header>
                         <Accordion.Body>
                         {projectsData.filter((data: Project)=> data?.category === type.id).map((data) => (

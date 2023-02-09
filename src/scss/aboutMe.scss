@@ -55,11 +55,12 @@
     &__basic-info-label {
         margin-bottom: 0.5rem;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     &__basic-info-value {
         font-weight: 400;
         font-size: 1.1rem;
+        word-break: break-all;
     }    
 }

@@ -52,7 +52,7 @@ const ProjectDetail = ({
                                 <div className="projects__description-value"><a href={projectData.github} target="_blank">{projectData.github}</a></div>
                             </div>
                         )}   
-                        {   !projectData.url ? (
+                        { !projectData.url ? (
                             <div></div>
                         ) : (
                             <div className="projects__description">
@@ -66,10 +66,14 @@ const ProjectDetail = ({
                                     <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Frontend</div>
                                     <div className="projects__description-value">{projectData.frontend}</div>
                                 </div>
-                                <div className="projects__description">
-                                    <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Backend</div>
-                                    <div className="projects__description-value">{projectData.backend}</div>
-                                </div>
+                                { !projectData.backend ? (
+                                    <></>
+                                ) : (
+                                    <div className="projects__description">
+                                        <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Backend</div>
+                                        <div className="projects__description-value">{projectData.backend}</div>
+                                    </div>
+                                )}
                             </>
                         ) : (
                             <div className="projects__description">
@@ -77,14 +81,24 @@ const ProjectDetail = ({
                                 <div className="projects__description-value">{projectData.mobile_app}</div>
                             </div>
                         )}
-                        <div className="projects__description">
-                            <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Database</div>
-                            <div className="projects__description-value">{projectData.database}</div>
-                        </div>
-                        <div className="projects__description">
-                            <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Deployment</div>
-                            <div className="projects__description-value">{projectData.deployment}</div>
-                        </div>                                         
+                        { !projectData.database ? (
+                            <></>
+                        ) : (
+                            <div className="projects__description">
+                                <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Database</div>
+                                <div className="projects__description-value">{projectData.database}</div>
+                            </div>
+                        )}
+                        { !projectData.deployment ? (
+                            <></>
+                        ) : (
+                            <>
+                                <div className="projects__description">
+                                    <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>Deployment</div>
+                                    <div className="projects__description-value">{projectData.deployment}</div>
+                                </div>
+                            </>                                       
+                        )}
                     </div>
                 </div>
             </div>
