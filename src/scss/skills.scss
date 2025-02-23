@@ -4,16 +4,10 @@
     &__content {
         -webkit-box-sizing: border-box;
         width: 100%;
-        max-width: 71.25rem;
+        max-width: 84.25rem;
         padding: 4rem 2rem;
         margin: 0 auto;
-        height: 95rem;       
-    }
-
-    @media (max-width: 950px) {
-        &__content {
-            height: 158rem;
-        }
+        height: 65rem;       
     }
 
     &__container {
@@ -34,16 +28,6 @@
         -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);  
     }
 
-    @media (max-width: 450px) {
-        &__content {
-            height: 140rem;
-        }
-
-        &__tech-stacks {
-            width: 20rem;
-        }
-    }
-
     &__title {
         padding-bottom: 0.5rem;
         margin-bottom: 1.5rem;
@@ -56,5 +40,21 @@
     &__img {
         display: block;
         width: 100%;
+    }
+
+    @media (max-width: 1350px) {
+        &__content {
+            height: 102rem;
+        }
+    }
+
+    @media (max-width: 890px) {
+        &__content {
+            height: 130rem;
+        }
+
+        &__tech-stacks {
+            width: 20rem;
+        }
     }
 }
