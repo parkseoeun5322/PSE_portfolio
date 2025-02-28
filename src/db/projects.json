@@ -1,5 +1,118 @@
 [
     {
+        "id": "partnerdb",
+        "name": "제휴사 DB 관리 시스템",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2024.04 ~ 2024.05",
+        "authority": "프론트 개발자로 참여",
+        "url": ["https://partner.goodrichmall.com"],
+        "github": "",
+        "image_url": [
+            ""
+        ],
+        "summary": "<b>Frontend Backend API 모두 신규로</b>",
+        "main_function": [
+            ""
+        ],
+        "my_part": [
+            "Frontend 전체, Backend 일부"
+        ],           
+        "meaning": "",
+        "frontend": "Node, Vue, Vuetify",
+        "backend": "JAVA, Spring Boot",
+        "database": "MYSQL",
+        "deployment": "Apache/Tomcat, Jenkins, Gitlab",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "gfc",
+        "name": "굿리치금융캠퍼스 모바일웹 신규 페이지",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2024.01 ~ 2024.02",
+        "authority": "메인 개발자로 참여",
+        "url": ["https://gfc.goodrich.kr"],
+        "github": "",
+        "image_url": [
+            ""
+        ],
+        "summary": "<b>굿리치금융캠퍼스라는 프로그램의 지원자 신청을 위한 신규 사이트</b>입니다.<br/>지원자 신청 API를 굿리치금융캠퍼서의 프로세스에 맞춰 수정하고 Jenkins를 통해 처음으로 API를 배포하는 경험을 해볼 수 있었습니다. ",
+        "main_function": [
+            "굿리치금융캠퍼스 채용 프로세스 및 혜택 소개",
+			"지원 신청 기능",
+            "지원자 신청 API 연동"
+        ],
+        "my_part": [
+            "Frontend 전체, Backend 일부"
+        ],           
+        "meaning": "TM/RP 고객 DB 수집용 사이트가 아닌 채용연계를 위한 신규 사이트를 굿리치(주)에서 처음으로 개발해 볼 수 있는 기회였습니다.<br/>굿리치금융캠퍼스라는 프로그램으로 사이트를 구축하는 건 처음이었기에 기존에 존재했던 스키마를 확장해서 구현해보려고 하였습니다.<br/>그러므로 지원자 관련 스키마를 굿리치금융캠퍼스 프로세스에 맞춰 변경하고 이에 따라 지원자 신청 API를 수정하였습니다.<br/>또한 API를 젠킨스를 통해 처음으로 배포해볼 수 있었습니다.",
+        "frontend": "Node, express, AngularJS",
+        "backend": "JAVA, Spring Framework",
+        "database": "MYSQL",
+        "deployment": "Apache/Tomcat, Jenkins, SVN",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "tmap",
+        "name": "애드인슈 티맵 제휴 모바일웹 사이트 리뉴얼",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2023.11",
+        "authority": "메인 개발자로 참여",
+        "url": ["https://m.t-insu.com"],
+        "github": "",
+        "image_url": [
+            ""
+        ],
+        "summary": "애드인슈(자동차보험) 티맵 제휴 사이트를 리뉴얼하는 업무에 참여했습니다.<br/>기술 스택은 기존에 작업했던 캐시노트 사이트와 거의 동일하여 Frontend 개발하는 과정은 전보다 용이했지만<br/>애드인슈(자동차보험)의 고객 DB 유입 API를 연동하는 방법을 새로 알게된 계기가 된 작업이었습니다.",
+        "main_function": [
+            "이벤트 참여 혜택 및 제휴 보험사 소개",
+            "OPERA(고객 DB 전송) API 연동"
+        ],
+        "my_part": [
+            "Frontend 전체"
+        ],           
+        "meaning": "이전에 개발에 참여했던 캐시노트 신규 사이트와 기술 스택이 거의 유사했기 때문에 개발하는데 있어 큰 어려움이 없었던 업무였습니다.<br/>하지만 기존과 달리 배포 환경이 달라 유의해야 할 점을 상기하며 배포했던 경험이 있었습니다.<br/> 배포 환경을 자세히 설명하자면 애드인슈도 LoadBalancing이 되는 2대의 서버로 구성되어 있지만 Jenkins는 2대의 서버에 한꺼번에 소스를 올리는 방식으로 구성되어 있었습니다.<br/>이로 인해 생길 수 있는 문제점을 인지한 상태에서 배포해야 했기 때문에 이번 업무를 통해서 배포 구성 환경에 대한 중요성을 깨달을 수 있었습니다.",
+        "frontend": "Node, express, AngularJS",
+        "backend": "JAVA, Spring Framework",
+        "database": "MYSQL",
+        "deployment": "Apache/Tomcat, Jenkins, SVN",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
+        "id": "cashnote",
+        "name": "캐시노트 이벤트 모바일웹 사이트",
+        "category": "2",    
+        "type": "WEB",
+        "period": "2023.07 ~ 2023.08",
+        "authority": "메인 개발자로 참여",
+        "url": ["https://cashnote.goodrichplan.com", "https://cashnotepush.goodrichplan.com"],
+        "github": "",
+        "image_url": [
+            ""
+        ],
+        "summary": "<b>굿리치(주)에 입사하여 처음으로 개발에 참여한 신규 이벤트 사이트</b>입니다.<br/>Node 기반의 Frontend 개발에 처음으로 참여하였으며, 기존에 사용해보지 않았던 생소한 프레임워크<span class='highlight'>AngularJS</span>를 사용했습니다.<p></p>또한, <span class='highlight'>LoadBalancing이 된 서버를 기반으로 구성된 Jenkins</span>을 이용한 배포도 경험해볼 수 있었습니다.",
+        "main_function": [
+            "이벤트 참여 방식 및 혜택 소개", 
+            "핸드폰 번호 인증 문자 발송 및 인증 기능",
+            "CRM(고객 DB 전송) API 연동"
+        ],
+        "my_part": [
+            "Frontend 전체"
+        ],           
+        "meaning": "굿리치(주)에 입사하여 처음으로 맡게 된 사이트였기 때문에, 마케팅 개발팀에서 사용하는 주요 기술 스택(express, AngularJS)을 파악하고 익히는 데 많은 도움이 되었습니다.<br/> 기존 사이트를 유지보수하는 것이 아니라 신규 사이트를 오픈해야 했기 때문에 Frontend에서 신규 도메인을 추가할 때 어떻게 작업해야 하는 지,<br/> 또 신규 도메인을 추가할 때, 인프라 팀에 어떤 방식으로 작업해야 하는 지, LoadBalancing 서버 + Jenkins 환경에서 어떻게 배포를 해야 하는 지 등등<br/>많은 것을 배울 수 있는 기회였습니다.",
+        "frontend": "Node, express, AngularJS",
+        "backend": "JAVA, Spring Framework",
+        "database": "MYSQL",
+        "deployment": "Apache/Tomcat, Jenkins, SVN",
+        "mobile_app": "",
+        "solution": ""
+    },
+    {
         "id": "portfolio",
         "name": "포트폴리오 웹 사이트",
         "category": "0",    
