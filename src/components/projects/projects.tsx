@@ -27,7 +27,7 @@ const Projects = () => {
                     </div>
                     <div className="sectionTitle__text wg">PROJECTS</div>
                 </div>
-                <Accordion defaultActiveKey={lastTypeId}>
+                <Accordion defaultActiveKey={lastTypeId} flush>
                 {projectType.map((type) => (
                     <Accordion.Item eventKey={type.id} key={type.id}>
                         <Accordion.Header>

@@ -29,13 +29,19 @@ const ReadMe = ({
                         ) : (
                             <article className="markdown-body entry-content container-lg" itemProp="text">
                                 <h1 className="readme__title">{projectData.name}</h1>
-                                { !projectData.url ? (
+                                { !projectData.url[0] ? (
                                     <p></p>
                                 ) : (
                                     <>
                                     <h4 className="readme__sub-title">
                                         <i className="fa-solid fa-link" style={{color: "#7a7a7a"}}></i>Deployment URL</h4>
-                                    <p className="readme__text"><a href={projectData.url} target="_blank">{projectData.url}</a></p>
+                                    <p className="readme__text">
+                                        <ul>
+                                            {projectData.url.map((url) =>                                
+                                                <li key={url}><a href={url} target="_blank">{url}</a></li>
+                                            )}
+                                        </ul>
+                                    </p>
                                     </>
                                 )}
                                 <h4 className="readme__sub-title">

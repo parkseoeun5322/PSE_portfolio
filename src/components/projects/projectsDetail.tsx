@@ -60,7 +60,7 @@ const ProjectDetail = ({
                                 <div className="projects__description-value">
                                     <ul>
                                         {projectData.url.map((url) =>                                
-                                            <li><a href={url} target="_blank">{url}</a></li>
+                                            <li key={url}><a href={url} target="_blank">{url}</a></li>
                                         )}
                                     </ul>
                                 </div>
