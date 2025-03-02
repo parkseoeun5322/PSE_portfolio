@@ -5,7 +5,7 @@ export type Project = {
     type: string
     period: string
     authority : string
-    url: string
+    url: string[]
     github: string
     image_url: string[]
     summary: string

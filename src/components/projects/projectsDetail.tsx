@@ -52,12 +52,18 @@ const ProjectDetail = ({
                                 <div className="projects__description-value"><a href={projectData.github} target="_blank">{projectData.github}</a></div>
                             </div>
                         )}   
-                        { !projectData.url ? (
+                        { !projectData.url[0] ? (
                             <div></div>
                         ) : (
                             <div className="projects__description">
                                 <div className="projects__description-label"><i className="fa-solid fa-square-check"></i>url</div>
-                                <div className="projects__description-value"><a href={projectData.url} target="_blank">{projectData.url}</a></div>
+                                <div className="projects__description-value">
+                                    <ul>
+                                        {projectData.url.map((url) =>                                
+                                            <li><a href={url} target="_blank">{url}</a></li>
+                                        )}
+                                    </ul>
+                                </div>
                             </div>   
                         )}
                         { projectData.type === 'WEB' ? (
