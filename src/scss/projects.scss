@@ -17,6 +17,15 @@
             border: none;
         }
 
+        &-header.fixed {
+            position: fixed;
+            top: 72px; left: 0; right: 0;
+            padding: 0 2rem;
+            max-width: 84.25rem;
+            margin: 0 auto;
+            z-index: 99;
+        }
+
         &-body {
             padding: 0;
         }
